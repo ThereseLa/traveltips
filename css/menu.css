@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Empty_Space1 {
+    flex-grow: 1;
+    height: 90px;
+    padding: 0px;
+}
+
+.Logo_Space {
+    flex-basis: 8vw;
+    height: 90px;
+    text-align: center;
+    padding: 0px;
+}
+
+.Logo_Space img {
+    max-width: 100%;
+    height: 90%;
+}
+
+
+
+
+
+
+.flexbox_Header {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Menuoption {
+    flex-grow: 1;
+    background-color: cadetblue;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Empty_Space2 {
+    flex-grow: 7;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.Menulink:hover {
+    background-color: darkcyan;
+}
+
+.Searchbar {
+    display: flex;
+    flex-grow: 1;
+    background-color: cadetblue;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Searchbar input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    outline-color:darkorange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Searchbar button {
+    color: white;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Searchbar button:hover {
+    background-color: darkcyan;
+}
