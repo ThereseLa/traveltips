@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .flexbox_logo {
     display: flex;
     flex-direction: row;
@@ -33,22 +28,34 @@ body {
 
 
 
+
 .flexbox_Header {
     display: flex;
     flex-direction: row;
+    height: 35px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.2);
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-list li {
+    display: inline;
+    margin-right: 40px;
 }
 
 .Menuoption {
-    flex-grow: 1;
-    background-color: cadetblue;
-    padding: 5px;
-    text-align: center;
+    padding:5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:16px
 }
 
 .Empty_Space2 {
@@ -57,27 +64,20 @@ body {
     padding: 5px;
 }
 
-a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    padding: 3px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.Menulink:hover {
+.Menuoption:hover {
     background-color: darkcyan;
 }
 
 .Searchbar {
-    display: flex;
     flex-grow: 1;
+    display: flex; 
+    justify-content: flex-end; 
+    margin-right: 5px;
+    align-items: center;
     background-color: cadetblue;
-    padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    align-items: center;
-    justify-content: flex-end;
+    font-size: 16px;
 }
 
 .Searchbar input {
@@ -86,7 +86,7 @@ a {
     padding: 5px;
     margin-left: 10px;
     margin-right: 5px;
-    outline-color:darkorange;
+    outline-color: darkorange;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -98,6 +98,7 @@ a {
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .Searchbar button:hover {

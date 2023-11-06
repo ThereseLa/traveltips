@@ -3,14 +3,14 @@
 
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1R1PFEM47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1R1PFEM47"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-Y1R1PFEM47');
-</script>
+        gtag('config', 'G-Y1R1PFEM47');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A page about travel tips from all around the world">
@@ -20,9 +20,11 @@
 
     <link rel="stylesheet" href="css/menu.css" type="text/css" />
     <link rel="stylesheet" href="css/home.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
 </head>
 
-<body>
+<body onload="buildMenu()">
 
     <nav class="flexbox_logo">
 
@@ -39,26 +41,157 @@
     </nav>
 
     <header class="flexbox_Header">
+        <nav>
+            <ul class="menu-list">
+                <li><a href="index.html" class="Menuoption">Home</a></li>
 
-        <div class="Menuoption"><a href="Share-tips.html" class="Menulink">Share Tips</a></div>
-        <div class="Menuoption"><a href="Get-tips.html" class="Menulink">Get Tips</a></div>
-        <div class="Menuoption"><a href="About-Us.html" class="Menulink">About Us</a></div>
+                <li><a href="Get-tips.html" class="Menuoption">Get Tips</a></li>
+
+                <li><a href="Share-tips.html" class="Menuoption">Share Tips</a> </li>
+
+                <li><a href="About-Us.html" class="Menuoption">About Us</a></li>
+            </ul>
+        </nav>
         <div class="Empty_Space2"></div>
 
-        <div class="Searchbar">From where do you want a travel tip?
-            <input type="text" placeholder="Search destination...">
-            <button type="submit">Search</button>
+
+        <div class="Searchbar">From which country do you want a travel tip?
+            <input id="searchInput" type="text" placeholder="Search destination...">
+            <button id="searchButton" type="submit">Search</button>
         </div>
 
     </header>
 
-    <div>
+    <div class="video-container">
         <video class="homeloop" autoplay loop muted playsinline>
             <source src="Videos/Homepage-video-loop.mp4" type="video/mp4">
         </video>
+        <h1 class="h1-ontopofvideo">Travel Tips</h1>
+        <p class="p-ontopofvideo">Share or find travel tips from all<br>
+            around the world. This website is<br>
+            your go-to source for enhancing<br>
+            your travel adventures and<br>
+            making them memorable.
     </div>
 
-    <script src="script/home.js"></script>
+    <div class="border"></div>
+
+    <div class="latest-tips-h2">
+
+        <h2>We Recommend</h2>
+
+    </div>
+
+    <main class="flexbox">
+
+        <section class="Empty-side"></section>
+
+        <section class="latest-tips">
+            <img src="Images/Italy-hiddengem.jpeg" id="latest-tips-image" alt="Small village on top of mountain">
+            <a href="Coming-soon.html" class="h3-tiplink-hover">
+                <h3>10 Hidden Gems In Italy<br>
+                    You've Probably Never Heard Of</h3>
+            </a>
+            <!-- Både länkarna som leder till "Coming-soon" ska leda till en undersida där det tipset finns. --> 
+            <h4 class="Destination">Destination</h4>
+            <a href="Coming-soon.html" class="Button-read-tip" id="Button-read-tip-hover">Read Tip</a>
+
+            <a href="Coming-soon.html" class="Flag">
+                <img src="Images/Italian-flag.png" alt="Italian flag">
+            </a>
+            <!-- Flaggans länk ska leda till en undersida där alla tips från Italien finns. --> 
+        </section>
+
+        <section class="latest-tips">
+            <img src="Images/Phuket-islandhop.jpg" id="latest-tips-image"
+                alt="Boats docked on an island surrounded by water">
+            <a href="A-better-way-to-island-hop-in-Phuket.html" class="h3-tiplink-hover">
+                <h3>A better way to Island Hop<br>
+                    – In Beautiful Phuket</h3>
+            </a>
+            <h4 class="Destination">Destination</h4>
+            <a href="A-better-way-to-island-hop-in-Phuket.html" class="Button-read-tip" id="Button-read-tip-hover">Read
+                Tip</a>
+
+            <a href="Thailand.html" class="Flag">
+                <img src="Images/Thailand-flag.png" alt="Thailand flag">
+            </a>
+        </section>
+
+        <section class="latest-tips">
+            <img src="Images/SouthAfrica-streetfood.png" id="latest-tips-image"
+                alt="A dish of South African street food">
+            <a href="Coming-soon.html" class="h3-tiplink-hover">
+                <h3>Where To Find The Best<br>
+                    South African Street Food</h3>
+            </a>
+            <!-- Både länkarna som leder till "Coming-soon" ska leda till en undersida där det tipset finns. --> 
+            <h4 class="Destination">Destination</h4>
+            <a href="Coming-soon.html" class="Button-read-tip" id="Button-read-tip-hover">Read Tip</a>
+
+            <a href="Coming-soon.html" class="Flag">
+                <img src="Images/SouthAfrica-Flag.png" alt="South African flag">
+            </a>
+            <!-- Flaggans länk ska leda till en undersida där alla tips från Sydafrika finns. --> 
+        </section>
+
+        <section class="Empty-side"></section>
+
+    </main>
+
+    <div class="border-mountainrange"></div>
+
+    <footer>
+
+        <div class="footer-flexboxes"></div>
+
+        <div class="footer-flexboxes">
+            <a href="index.html">
+                <img src="Images/Travel-tips-logo-transparent.png" alt="Travel tips logo" class="logo-in-footer">
+            </a>
+        </div>
+
+        <div class="footer-flexboxes">
+
+            <ul id="footer-menu"></ul>  
+
+        </div>
+
+        <div class="footer-flexboxes">
+            <!-- Länkarna ska här leda till Travel Tips egna sociala medier,
+            men just nu leder de bara allmänt till dessa. --> 
+            <h4 class="footer-textinfooter">Follow us</h4>
+            <a href="https://www.instagram.com" class="position-socialmedias">
+                <img src="Images/Instagram.png" alt="Instagram logo link" class="socialmedia-links1">
+            </a>
+
+            <a href="https://www.facebook.com/">
+                <img src="Images/Facebook.png" alt="Facebook logo link" class="socialmedia-links2">
+
+                <a href="https://www.pinterest.com">
+                    <img src="Images/Pinterest.png" alt="Pinterest logo link" class="socialmedia-links3">
+                </a>
+            </a>
+        </div>
+
+        <div class="footer-flexboxes">
+            <h4 class="Newsletter-h4">Want to be updated on all new travel tips?<br>
+            Subscribe to our newsletter.</h4>
+            <form action="subscribe.php" method="post" class="newsletter-form">
+                <input type="email" name="email" placeholder="Enter your mail..." required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+
+        <div class="footer-flexboxes"></div>
+
+    </footer>
+
+
+    
+
+
+    <script src="script/script.js"></script>
 </body>
 
 </html>
