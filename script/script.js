@@ -1,8 +1,8 @@
 function buildMenu()
 {
     var links = [
-        ["Get Tips", "Get-tips.html"],
         ["Share Tips", "Share-tips.html"],
+        ["Inspiration", "Get-tips.html"],
         ["About Us", "About-Us.html"],
         ["Contact Us", "Contact-Us.html"]
     ]

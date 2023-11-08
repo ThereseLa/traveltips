@@ -45,9 +45,9 @@
             <ul class="menu-list">
                 <li><a href="index.html" class="Menuoption">Home</a></li>
 
-                <li><a href="Get-tips.html" class="Menuoption">Get Tips</a></li>
-
                 <li><a href="Share-tips.html" class="Menuoption">Share Tips</a> </li>
+
+                <li><a href="Get-tips.html" class="Menuoption">Inspiration</a></li>
 
                 <li><a href="About-Us.html" class="Menuoption">About Us</a></li>
             </ul>
@@ -62,12 +62,80 @@
 
     </header>
 
-    <div class="bannerimage-container">
-        <img src="Images/Thailand-banner.png" class="bannerimage">
+    <div class="bannerimage">
         <h1 class="h1-ontopofimage">Thailand Travel Tips</h1>
     </div>
 
     <div class="border"></div>
+
+    <main class="flexbox-Thailand">
+
+        <section class="Maincontent">
+            <h2>Explore Thailand With Travel Tips</h2>
+            <p class="Thailand-introduction">Thailand is a captivating country, known for its diverse attractions and
+                rich cultural heritage. From the bustling streets of Bangkok with its vibrant markets and historic
+                temples to the pristine beaches of Phuket and Krabi, Thailand offers something for every traveler.
+                Whether you're seeking adventure, relaxation, or a taste of exquisite Thai cuisine, this Southeast Asian
+                gem is sure to leave you with unforgettable memories. Explore all it’s secrets with these helpful tips
+                and get the most out of your travels.</p>
+        </section>
+
+        <div class="Browse-Thailand">
+
+            <table border="6">
+                <tr>
+                    <td class="table-image-container">
+                        <img src="Images/Phuket-islandhop.jpg" class="imageintable"
+                            alt="Boats docked on an island surrounded by water">
+                    </td>
+                    <td class="table-text-container"><a href="A-better-way-to-island-hop-in-Phuket.html">
+                            <h3 class="h3-in-table">A better way to Island Hop In Beautiful Phuket</h3>
+                        </a>
+                        <p class="p-in-table">Island hopping in Phuket offers a mesmerizing experience as you explore
+                            the stunning Andaman Sea. But you might find the limited time, and having to share your experience with other tourists, a bit of a disappointment. Of course – there is a better way.</p>
+                        <p class="Table-Date">06 Nov 2023</p>
+                    </td>
+                </tr>
+
+                </tr>
+                <tr>
+
+                    <td class="table-image-container">
+                        <img src="Images/Chatuchak.jpg" class="imageintable"
+                            alt="People wandering around market stalls at night">
+                    </td>
+                    <td class="table-text-container"><a href="Coming-soon.html">
+                        <!-- Länken ska leda till en undersida med ett inlägg som handlar om "Tips and Tricks when visiting Chatuchak". --> 
+                            <h3 class="h3-in-table">Tips and Tricks when visiting Chatuchak</h3>
+                        </a>
+                        <p class="p-in-table">The iconic Chatuchak weekend market in Bangkok is a thrilling experience for shoppers and explorers alike. Discover valuable tips and tricks to make your trip to Chatuchak as enjoyable and successful as possible.</p>
+                        <p class="Table-Date">28 Oct 2023</p>
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="table-image-container">
+                        <img src="Images/Seafood.jpg" class="imageintable"
+                            alt="Different kinds of seafood being cooked on grills">
+                    </td>
+                    <td class="table-text-container"><a href="Coming-soon.html">
+                        <!-- Länken ska leda till en undersida med ett inlägg som handlar om "Want to eat Seafood like the Locals?". --> 
+                            <h3 class="h3-in-table">Want to eat Seafood like the Locals?</h3>
+                        </a>
+                        <p class="p-in-table">Experience the mouthwatering world of authentic culinary wonders of Thailand. We'll take you on a journey through hidden fish markets, unexpected cooking possibilities and the ultimate dining location.</p>
+                        <p class="Table-Date">17 Oct 2023</p>
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </main>
+
 
 
     <div class="border-mountainrange"></div>
@@ -84,13 +152,13 @@
 
         <div class="footer-flexboxes">
 
-            <ul id="footer-menu"></ul>  
+            <ul id="footer-menu"></ul>
 
         </div>
 
         <div class="footer-flexboxes">
             <!-- Länkarna ska här leda till Travel Tips egna sociala medier,
-            men just nu leder de bara allmänt till dessa. --> 
+            men just nu leder de bara allmänt till dessa. -->
             <h4 class="footer-textinfooter">Follow us</h4>
             <a href="https://www.instagram.com" class="position-socialmedias">
                 <img src="Images/Instagram.png" alt="Instagram logo link" class="socialmedia-links1">
@@ -107,7 +175,7 @@
 
         <div class="footer-flexboxes">
             <h4 class="Newsletter-h4">Want to be updated on all new travel tips?<br>
-            Subscribe to our newsletter.</h4>
+                Subscribe to our newsletter.</h4>
             <form action="subscribe.php" method="post" class="newsletter-form">
                 <input type="email" name="email" placeholder="Enter your mail..." required>
                 <input type="submit" value="Subscribe">

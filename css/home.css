@@ -60,7 +60,7 @@
     margin: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.2);
-    border: solid 5px ;
+    border: solid 5px white;
 }
 
 .Empty-side {
