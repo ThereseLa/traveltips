@@ -1,4 +1,4 @@
-
+/* General Rules */
 
 body {
     margin: 0;
@@ -49,3 +49,491 @@ a {
     border-radius: 10px;
     text-decoration: none;
 }
+
+
+/* For The Logo */
+
+.flexbox_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Empty_Space1 {
+    flex-grow: 1;
+    height: 90px;
+    padding: 0px;
+}
+
+.Logo_Space {
+    flex-basis: 8vw;
+    height: 90px;
+    text-align: center;
+    padding: 0px;
+}
+
+.Logo_Space img {
+    max-width: 100%;
+    height: 90%;
+}
+
+
+/* For The Menu */
+
+.flexbox_Header {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.2);
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-list li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.Menuoption {
+    padding:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:16px
+}
+
+.Empty_Space2 {
+    flex-grow: 7;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+.Menuoption:hover {
+    background-color: darkcyan;
+}
+
+.Searchbar {
+    flex-grow: 1;
+    display: flex; 
+    justify-content: flex-end; 
+    margin-right: 5px;
+    align-items: center;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.Searchbar input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    outline-color: darkorange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Searchbar button {
+    color: white;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Searchbar button:hover {
+    background-color: darkcyan;
+}
+
+
+/* For Footer */
+
+.border-mountainrange {
+    display: flex;
+    width: 100vw;
+    height: 120px;
+    background-color: gainsboro;
+    background-image: url(../Images/footer-boarder.png);
+    margin-bottom: opx;
+}
+
+footer {
+    display: flex;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(60, 58, 58);
+    margin-top: 0px;
+}
+
+.footer-flexboxes {
+flex-grow: 1;
+width: 100%;
+height: 250px;
+position: relative; 
+}
+
+.logo-in-footer {
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+#footer-menu {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.footer-textinfooter { 
+    height: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer-menu li {
+    margin-bottom: 20px;
+  }
+
+  #footer-menu li a:hover {
+    border-radius: 10px; 
+    padding: 5px;
+    background-color: white; 
+    color: black;
+  }
+
+  .socialmedia-links1 {
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    top: 90px; 
+    left: 50px;
+    transition: all 0.3s;
+  }
+
+  .socialmedia-links2 {
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    top: 90px; 
+    left: 100px;
+    transition: all 0.3s;
+  }
+
+  .socialmedia-links3 {
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    top: 90px; 
+    left: 150px;
+    transition: all 0.3s;
+  }
+
+.socialmedia-links1:hover,
+.socialmedia-links2:hover,
+.socialmedia-links3:hover {
+    width: 40px; 
+    height: 40px; 
+    top: 85px; 
+}
+
+.Newsletter-h4 {
+margin-top: 50px;
+}
+
+.newsletter-form input[type="email"] {
+   width: 130px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    outline-color: darkorange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.newsletter-form input[type="submit"] {
+    color: white;
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: darkcyan;
+}
+
+
+/* For Homepage */
+
+.homeloop {
+    width: 100%;
+    height: 500px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.video-container {
+    position: relative;
+}
+
+.h1-ontopofvideo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 300;
+    text-align: left;
+    font-size: 50px;
+    -webkit-text-stroke: 1px #000;
+    padding: 10px;
+}
+
+.p-ontopofvideo {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 300px;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    padding-bottom: 70px;
+}
+
+.latest-tips-h2 {
+    display: flex;
+    flex-basis: 100vw;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    margin-top: 0px;
+    background-color: gainsboro;
+    padding-top: 25px;
+}
+
+.latest-tips {
+    position: relative;
+    flex-basis: 1;
+    background-color:cadetblue;
+    height: 400px;
+    padding: 0px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.2);
+    border: solid 5px white;
+}
+
+.Empty-side {
+    display: flex;
+    flex-grow: 1;
+}
+
+#latest-tips-image {
+    width: 100%;
+    height: 220px;
+    padding-bottom: 10px;
+}
+
+.h3-tiplink-hover {
+    margin-top: 0;
+    font-size:medium;
+    padding-bottom: 30px;
+}
+
+.h3-tiplink-hover:hover {
+color:gainsboro;
+}
+
+.Button-read-tip {
+    border: solid 2px white;
+    padding: 6px;
+    justify-content:center;
+    background-color: white;
+    color: black;
+}
+
+#Button-read-tip-hover:hover {
+    background-color:black;
+    color: white;
+}
+
+.Destination {
+    text-align: right;
+    margin-top: 0;
+    margin-right: 20px;
+    font-size:small;
+}
+
+.Flag {
+    position: absolute;
+    bottom: 16px;
+    right: 38px;
+}
+
+.Flag img {
+    width: 40px;
+    height: 40px;
+}
+
+.Flag:hover {
+    border: solid 1px gainsboro
+}
+
+
+/* For Coming Soon */
+
+.Comingsoon {
+    padding-top: 5px;
+}
+
+.coming-soon-main {
+    background-color: gainsboro;
+    padding-bottom: 80px;
+}
+
+
+/* For Share Tips */
+
+
+
+
+/* For Thailand */
+
+.bannerimage {
+    position: relative;
+    background-image: url(../Images/Thailand-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.h1-ontopofimage {
+    position: absolute;
+    top: 60px;
+    left: 20vw;
+    width: 300;
+    text-align: left;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #000;
+    padding: 0px;
+}
+
+.flexbox-Thailand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    width: 100vw;
+    background-color: gainsboro;
+    padding-top: 40px;
+}
+
+.Maincontent-Thailand {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 220px;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    background-color: gainsboro;
+    color: black;
+    margin-top: 0px;
+}
+
+.Thailand-introduction {
+    color: black;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Browse-Thailand {
+    display: flex;
+    width: 80vw;
+    height: 600px;
+}
+
+table {
+    width: 80vw;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0 -5px 5px rgba(0, 0, 0, 0.2);
+    border-color: rgb(60, 58, 58);
+    border-spacing: 10px;
+}
+
+.table-image-container {
+    width: 300px;
+    height: 200px;
+    border-width: 3px;
+    border-color: rgb(60, 58, 58);
+}
+
+.imageintable {
+    width: 300px;
+    height: 200px;
+}
+
+.table-text-container {
+    border-width: 3px;
+    border-color: rgb(60, 58, 58);
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.h3-in-table {
+    color: cadetblue;
+    text-align: left;
+}
+
+.h3-in-table:hover {
+    color: gainsboro;
+}
+
+.p-in-table {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.Table-Date {
+    color: black;
+    font-size: small;
+}
+
+
+/* For All Tips Posts */
+
+.Main-Tips-post-flexbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* For A better way to Island Hop In Beautiful Phuket */
