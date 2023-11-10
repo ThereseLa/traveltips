@@ -683,7 +683,7 @@ flex-direction: column;
 
 .bannerimage {
     position: relative;
-    background-image: url(../Images/Thailand-Banner.png);
+    background-image: url(../Images);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
