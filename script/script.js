@@ -6,7 +6,7 @@ function buildMenu()
         ["Share Tips", "Share-tips.html"],
         ["Inspiration", "Get-tips.html"],
         ["About Us", "About-us.html"],
-        ["Contact Us", "Coming-soon.html"]
+        ["Contact Us", "https://thereseelarsson.wordpress.com/"]
     ]
 
     var menyHTML = ""
