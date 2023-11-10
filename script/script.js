@@ -1,10 +1,12 @@
+// Function for the Footer-menu
+
 function buildMenu()
 {
     var links = [
         ["Share Tips", "Share-tips.html"],
         ["Inspiration", "Get-tips.html"],
-        ["About Us", "About-Us.html"],
-        ["Contact Us", "Contact-Us.html"]
+        ["About Us", "About-us.html"],
+        ["Contact Us", "Coming-soon.html"]
     ]
 
     var menyHTML = ""
@@ -21,6 +23,8 @@ menyHTML += "<li><a href='" + links [i][1] + "'> "+ links[i][0] +" </a></li>"
 
 
 
+
+// Function for the Search-bar
 
 document.addEventListener("DOMContentLoaded", function() {
     var searchInput = document.getElementById("searchInput");
@@ -39,5 +43,83 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             alert("Destination not found.");
         }
+    });
+});
+
+
+
+
+
+// Function for the slideshow images on "A better way to Island Hop In Beautiful Phuket
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides((slideIndex += n));
+}
+
+function currentSlide(n) {
+    showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+}
+
+
+
+
+
+// Function for the "Like" button click on "A better way to Island Hop In Beautiful Phuket
+
+function likePost() {
+    alert('You liked this post!');
+}
+
+
+
+
+
+// Function for the comment submissions on "A better way to Island Hop In Beautiful Phuket
+
+document.addEventListener("DOMContentLoaded", function () {
+    const commentForm = document.getElementById("comment-form");
+    const commentList = document.querySelector(".comment-list");
+
+    commentForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const commenterName = document.getElementById("name").value;
+        const commentText = document.getElementById("comment").value;
+
+        if (!commenterName || !commentText) {
+            alert("Please enter your name and comment.");
+            return;
+        }
+
+        const commentElement = document.createElement("div");
+        commentElement.className = "comment-item";
+
+        commentElement.innerHTML = `<strong>${commenterName}:</strong> ${commentText}`;
+
+        commentList.appendChild(commentElement);
+
+        document.getElementById("name").value = "";
+        document.getElementById("comment").value = "";
     });
 });

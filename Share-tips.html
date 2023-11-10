@@ -46,7 +46,7 @@
 
                 <li><a href="Get-tips.html" class="Menuoption">Inspiration</a></li>
 
-                <li><a href="About-Us.html" class="Menuoption">About Us</a></li>
+                <li><a href="About-us.html" class="Menuoption">About Us</a></li>
             </ul>
         </nav>
         <div class="Empty_Space2"></div>
@@ -59,7 +59,82 @@
 
     </header>
 
+    <div class="sharebanner">
+        <h1 class="h1-ontopofshareimage">Share Travel Tips</h1>
+    </div>
 
+    <div class="border"></div>
+
+    <main class="Share-flexbox">
+
+        <div class="Share-instructionstitle">
+        <h2>How do I share?</h2>
+    </div>
+
+        <p class="Share-instructionstext">Share your travel tips in the form below by answering the questions. We will review it and add it to the website<br>
+            as soon as possible. Thank you for sharing your experience and making travel better for all of us!</p>
+
+            <div class="Share-tips-box">
+        <form action="någonwebbadress" method="post">
+
+            <table border="6" class="table-background">
+                <tr>
+                    <th class="QA">Question</th>
+                    <th class="QA">Answer</th>
+                </tr>
+                <tr>
+                    <td><label for="Namn">Name</label></td>
+                    <td><input id="namn" namn="thename" type="text" placeholder="Enter your name..."></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Email">Email adress (Your email will not be shared)</label></td>
+                    <td><input id="Email" namn="theemail" type="text" placeholder="Enter your email..."></td>
+                </tr>
+
+                <tr>
+                    <td style="vertical-align: top;"><label for="travel_tip">Tell us about your experience and tips</label></td>
+                    <td><textarea id="travel_tip" name="mytext" rows="4" cols="50" placeholder="Type your answer here..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Namesharing">Check if you want your name shared</label></td>
+                    <td><input type="checkbox" id="nameshare" name="nameshare"></td>
+                </tr>
+
+                <tr>
+                    <td>When is your experience available to others?</td>
+                    <td>Choose an alternative below</td>
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <label for="alimitedtime">A limited time</label><br>
+                        <label for="certaintimeperiods">Certain time periods</label><br>
+                        <label for="always">Always</label>
+
+                    </td>
+
+                    <td>
+                        <input type="radio" id="alimitedtime" name="experience_availability" value="alimitedtime"><br>
+                        <input type="radio" id="certaintimeperiods" name="experience_availability" value="certaintimeperiod"><br>
+                        <input type="radio" id="always" name="experience_availability" value="always">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="sharebutton-submit-container">
+                        <button type="submit" value="submit" class="sharebutton-submit">Submit</button>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    </main>
 
 
 

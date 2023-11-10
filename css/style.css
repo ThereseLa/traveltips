@@ -6,22 +6,22 @@ body {
 }
 
 p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
 h1 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
 h2 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 h3 {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h4 {
@@ -102,12 +102,12 @@ a {
 }
 
 .Menuoption {
-    padding:5px;
+    padding: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     border-radius: 10px;
     text-decoration: none;
-    font-size:16px
+    font-size: 16px
 }
 
 .Empty_Space2 {
@@ -122,8 +122,8 @@ a {
 
 .Searchbar {
     flex-grow: 1;
-    display: flex; 
-    justify-content: flex-end; 
+    display: flex;
+    justify-content: flex-end;
     margin-right: 5px;
     align-items: center;
     background-color: cadetblue;
@@ -179,10 +179,10 @@ footer {
 }
 
 .footer-flexboxes {
-flex-grow: 1;
-width: 100%;
-height: 250px;
-position: relative; 
+    flex-grow: 1;
+    width: 100%;
+    height: 250px;
+    position: relative;
 }
 
 .logo-in-footer {
@@ -196,7 +196,7 @@ position: relative;
     list-style: none;
 }
 
-.footer-textinfooter { 
+.footer-textinfooter {
     height: 150px;
     text-align: center;
     margin-top: 50px;
@@ -204,56 +204,56 @@ position: relative;
 
 #footer-menu li {
     margin-bottom: 20px;
-  }
+}
 
-  #footer-menu li a:hover {
-    border-radius: 10px; 
+#footer-menu li a:hover {
+    border-radius: 10px;
     padding: 5px;
-    background-color: white; 
+    background-color: white;
     color: black;
-  }
+}
 
-  .socialmedia-links1 {
+.socialmedia-links1 {
     width: 30px;
     height: 30px;
-    position: absolute; 
-    top: 90px; 
+    position: absolute;
+    top: 90px;
     left: 50px;
     transition: all 0.3s;
-  }
+}
 
-  .socialmedia-links2 {
+.socialmedia-links2 {
     width: 30px;
     height: 30px;
-    position: absolute; 
-    top: 90px; 
+    position: absolute;
+    top: 90px;
     left: 100px;
     transition: all 0.3s;
-  }
+}
 
-  .socialmedia-links3 {
+.socialmedia-links3 {
     width: 30px;
     height: 30px;
-    position: absolute; 
-    top: 90px; 
+    position: absolute;
+    top: 90px;
     left: 150px;
     transition: all 0.3s;
-  }
+}
 
 .socialmedia-links1:hover,
 .socialmedia-links2:hover,
 .socialmedia-links3:hover {
-    width: 40px; 
-    height: 40px; 
-    top: 85px; 
+    width: 40px;
+    height: 40px;
+    top: 85px;
 }
 
 .Newsletter-h4 {
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .newsletter-form input[type="email"] {
-   width: 130px;
+    width: 130px;
     border: none;
     border-radius: 10px;
     padding: 5px;
@@ -335,7 +335,7 @@ margin-top: 50px;
 .latest-tips {
     position: relative;
     flex-basis: 1;
-    background-color:cadetblue;
+    background-color: cadetblue;
     height: 400px;
     padding: 0px;
     text-align: center;
@@ -354,28 +354,29 @@ margin-top: 50px;
     width: 100%;
     height: 220px;
     padding-bottom: 10px;
+    border-radius: 5px;
 }
 
 .h3-tiplink-hover {
     margin-top: 0;
-    font-size:medium;
+    font-size: medium;
     padding-bottom: 30px;
 }
 
 .h3-tiplink-hover:hover {
-color:gainsboro;
+    color: gainsboro;
 }
 
 .Button-read-tip {
     border: solid 2px white;
     padding: 6px;
-    justify-content:center;
+    justify-content: center;
     background-color: white;
     color: black;
 }
 
 #Button-read-tip-hover:hover {
-    background-color:black;
+    background-color: black;
     color: white;
 }
 
@@ -383,7 +384,7 @@ color:gainsboro;
     text-align: right;
     margin-top: 0;
     margin-right: 20px;
-    font-size:small;
+    font-size: small;
 }
 
 .Flag {
@@ -416,14 +417,273 @@ color:gainsboro;
 
 /* For Share Tips */
 
+.sharebanner {
+    position: relative;
+    background-image: url(../Images/Map-Noir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 100vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
+.h1-ontopofshareimage {
+    position: absolute;
+    margin-top: 25px;
+    left: 25vw;
+    width: 300;
+    height: 160px;
+    text-align: left;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #000;
+    padding: 0px;
+}
+
+.Share-flexbox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    background-color: gainsboro;
+    padding-bottom: 40px;
+}
+
+.Share-instructionstitle {
+    flex-grow: 100vw;
+    font-size: 22px;
+}
+
+.Share-instructionstext {
+    flex-grow: 100vw;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Share-tips-box {
+    flex-grow: 100vw;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.table-background {
+    width: 100%;
+    background: linear-gradient(to bottom, darkcyan, cadetblue);
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.table-background th,
+.table-background td {
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.QA {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.table-background .QA {
+    border: none;
+}
+
+.table-background td {
+    background-color: white;
+}
+
+.table-background #namn,
+.table-background #Email,
+.table-background #travel_tip {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline-color: darkorange;
+    font-size: 16px;
+}
+
+.table-background input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.table-background input[type="checkbox"]:checked {
+    background-color: cadetblue;
+    border: 1px solid darkcyan;
+}
+
+.table-background input[type="checkbox"]:checked::before {
+    content: '\2713';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table-background input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.table-background input[type="radio"]:checked {
+    background-color: cadetblue;
+    border: 1px solid darkcyan;
+}
+
+.sharebutton-submit {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.sharebutton-submit:hover {
+    background-color: rgb(60, 58, 58);
+    color: white;
+}
+
+.table-background .sharebutton-submit-container {
+    background: none;
+    border: none;
+}
+
+
+/* For About Us */
+
+.Aboutus-bannerimage {
+    position: relative;
+    background-image: url(../Images/About-us-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.h1-aboutusimage {
+    position: absolute;
+    top: 60px;
+    left: 23vw;
+    width: 300;
+    text-align: left;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #000;
+    padding: 0px;
+}
+
+.About-us-flexbox {
+    display: flex;
+    flex-direction:row;
+}
+
+.About-main {
+    flex-basis: 70vw;
+    background-color:gainsboro;
+    height: 700px;
+}
+
+.About-us-h2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+
+.About-us-h2 {
+    color: black;
+    flex-basis: 40px;
+    width: 100%;
+    text-align: center; 
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.About-us-minibanner {
+    flex-grow: 100px;
+    text-align: center;
+}
+
+.Minibanner {
+    width: 500px;
+    height: 150px;
+}
+
+.About-us-container {
+    flex-grow: 7;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.p-aboutus {
+color: black;
+font-size: 18px;
+}
+
+.About-aside {
+height: 700px;
+flex-grow: 1;
+background-color: gainsboro;
+border-left: 4px solid cadetblue; 
+}
+
+.Youtubevideos-h3 {
+display: flex;
+flex-direction: column;
+    text-align: center;
+    height: 80px;
+    justify-content: center;
+}
+
+.Youtube-container {
+    flex-grow: 1;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 /* For Thailand */
 
 .bannerimage {
     position: relative;
-    background-image: url(../Images/Thailand-banner.png);
+    background-image: url(../Images/Thailand-Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -491,6 +751,8 @@ table {
     height: 200px;
     border-width: 3px;
     border-color: rgb(60, 58, 58);
+    background-color: rgb(60, 58, 58);
+    padding-top: 4px;
 }
 
 .imageintable {
@@ -531,15 +793,219 @@ table {
 
 .Main-Tips-post-flexbox {
     display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 600px;
-    justify-content: center;
-    margin-top: 30px;
+    align-items: center;
+    background-color: gainsboro;
 }
 
 .Post-Title {
     color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 1000px;
+    text-align: center;
 }
 
+.slideshow-container {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid 5px rgb(60, 58, 58);
+    background-color: rgb(60, 58, 58);
 
-/* For A better way to Island Hop In Beautiful Phuket */
+}
+
+.mySlides {
+    display: none;
+}
+
+.Image-slideshow {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-tips-container {
+    width: 1000px;
+    margin-top: 30px;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+.p-tips-post {
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+    text-align: left;
+}
+
+.Post-info {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 10px;
+}
+
+.Postinfolisted {
+    list-style: none;
+    display: flex;
+}
+
+.Postinfolisted li {
+    display: inline;
+    margin-right: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.like-button {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+.like-button:hover {
+    background-color: rgb(60, 58, 58);
+}
+
+.comments-container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.comment-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.comment-title {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    background-color: white;
+    outline-color: darkorange;
+}
+
+.btn-submit {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.gradient-bg {
+    background: linear-gradient(to bottom, darkcyan, cadetblue);
+}
+
+.gradient-bg .btn-submit {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.gradient-bg .btn-submit:hover {
+    background-color: rgb(60, 58, 58);
+    color: white;
+}
+
+.comment-list {
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.comment-item {
+    margin-bottom: 20px;
+}
