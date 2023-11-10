@@ -1,23 +1,20 @@
 // Function for the Footer-menu
 
-function buildMenu()
-{
+function buildMenu() {
     var links = [
         ["Share Tips", "Share-tips.html"],
-        ["Inspiration", "Get-tips.html"],
+        ["Inspiration", "https://thereseelarsson.wordpress.com/inspiration/",],
         ["About Us", "About-us.html"],
         ["Contact Us", "https://thereseelarsson.wordpress.com/"]
-    ]
+    ];
 
-    var menyHTML = ""
-    for(var i = 0; i < links.length; i = i + 1)
-    {
-
-menyHTML += "<li><a href='" + links [i][1] + "'> "+ links[i][0] +" </a></li>"
+    var menuHTML = "";
+    for (var i = 0; i < links.length; i++) {
+        var targetAttribute = (links[i][0] === "Inspiration" || links[i][0] === "Contact Us") ? "target='_blank'" : "";
+        menuHTML += "<li><a href='" + links[i][1] + "' " + targetAttribute + "> " + links[i][0] + " </a></li>";
     }
 
-    document.getElementById("footer-menu").innerHTML = menyHTML
-
+    document.getElementById("footer-menu").innerHTML = menuHTML;
 }
 
 
