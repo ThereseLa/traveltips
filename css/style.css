@@ -50,6 +50,14 @@ a {
     text-decoration: none;
 }
 
+.highlighted-text {
+    font-weight: bold;
+}
+
+.colorhighlight {
+    color: darkorange;
+}
+
 
 /* For The Logo */
 
