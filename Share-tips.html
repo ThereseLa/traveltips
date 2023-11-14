@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A page about travel tips from all around the world">
-    <meta name="keywords" content="travel, travel tips, tips, destination">
+    <meta name="keywords" content="travel, travel tips, tips, destination, share">
     <meta name="author" content="Therese Larsson">
     <title>Share Travel Tips</title>
 
@@ -33,7 +33,6 @@
             </a>
         </div>
 
-
         <div class="Empty_Space1"></div>
     </nav>
 
@@ -44,13 +43,13 @@
 
                 <li><a href="Share-tips.html" class="Menuoption">Share Tips</a> </li>
 
-                <li><a href="https://thereseelarsson.wordpress.com/inspiration/" target="_blank" class="Menuoption">Inspiration</a></li>
+                <li><a href="https://thereseelarsson.wordpress.com/inspiration/" target="_blank"
+                        class="Menuoption">Inspiration</a></li>
 
                 <li><a href="About-us.html" class="Menuoption">About Us</a></li>
             </ul>
         </nav>
         <div class="Empty_Space2"></div>
-
 
         <div class="Searchbar">From which country do you want a travel tip?
             <input id="searchInput" type="text" placeholder="Search destination...">
@@ -68,77 +67,78 @@
     <main class="Share-flexbox">
 
         <div class="Share-instructionstitle">
-        <h2>How do I share?</h2>
-    </div>
+            <h2>How do I share?</h2>
+        </div>
 
-        <p class="Share-instructionstext">Share your travel tips <span class="highlighted-text">in the form below</span> by answering the questions. We will review it and add it to the website<br>
+        <p class="Share-instructionstext">Share your travel tips <span class="highlighted-text">in the form below</span>
+            by answering the questions. We will review it and add it to the website<br>
             as soon as possible. Thank you for sharing your experience and making travel better for all of us!</p>
 
-            <div class="Share-tips-box">
-        <form action="någonwebbadress" method="post">
+        <div class="Share-tips-box">
+            <form action="någonwebbadress" method="post">
 
-            <table border="6" class="table-background">
-                <tr>
-                    <th class="QA">Question</th>
-                    <th class="QA">Answer</th>
-                </tr>
-                <tr>
-                    <td><label for="Namn">Name</label></td>
-                    <td><input id="namn" namn="thename" type="text" placeholder="Enter your name..."></td>
-                </tr>
+                <table border="6" class="table-background">
+                    <tr>
+                        <th class="QA">Question</th>
+                        <th class="QA">Answer</th>
+                    </tr>
+                    <tr>
+                        <td><label for="Namn">Name</label></td>
+                        <td><input id="namn" namn="thename" type="text" placeholder="Enter your name..."></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="Email">Email adress (Your email will not be shared)</label></td>
-                    <td><input id="Email" namn="theemail" type="text" placeholder="Enter your email..."></td>
-                </tr>
+                    <tr>
+                        <td><label for="Email">Email adress (Your email will not be shared)</label></td>
+                        <td><input id="Email" namn="theemail" type="text" placeholder="Enter your email..."></td>
+                    </tr>
 
-                <tr>
-                    <td style="vertical-align: top;"><label for="travel_tip">Tell us about your experience and tips</label></td>
-                    <td><textarea id="travel_tip" name="mytext" rows="4" cols="50" placeholder="Type your answer here..."></textarea></td>
-                </tr>
+                    <tr>
+                        <td style="vertical-align: top;"><label for="travel_tip">Tell us about your experience and
+                                tips</label></td>
+                        <td><textarea id="travel_tip" name="mytext" rows="4" cols="50"
+                                placeholder="Type your answer here..."></textarea></td>
+                    </tr>
 
-                <tr>
-                    <td><label for="Namesharing">Check if you want your name shared</label></td>
-                    <td><input type="checkbox" id="nameshare" name="nameshare"></td>
-                </tr>
+                    <tr>
+                        <td><label for="Namesharing">Check if you want your name shared</label></td>
+                        <td><input type="checkbox" id="nameshare" name="nameshare"></td>
+                    </tr>
 
-                <tr>
-                    <td>When is your experience available to others?</td>
-                    <td>Choose an alternative below</td>
-                </tr>
+                    <tr>
+                        <td>When is your experience available to others?</td>
+                        <td>Choose an alternative below</td>
+                    </tr>
 
-                <tr>
+                    <tr>
 
-                    <td>
-                        <label for="alimitedtime">A limited time</label><br>
-                        <label for="certaintimeperiods">Certain time periods</label><br>
-                        <label for="always">Always</label>
+                        <td>
+                            <label for="alimitedtime">A limited time</label><br>
+                            <label for="certaintimeperiods">Certain time periods</label><br>
+                            <label for="always">Always</label>
 
-                    </td>
+                        </td>
 
-                    <td>
-                        <input type="radio" id="alimitedtime" name="experience_availability" value="alimitedtime"><br>
-                        <input type="radio" id="certaintimeperiods" name="experience_availability" value="certaintimeperiod"><br>
-                        <input type="radio" id="always" name="experience_availability" value="always">
-                    </td>
+                        <td>
+                            <input type="radio" id="alimitedtime" name="experience_availability"
+                                value="alimitedtime"><br>
+                            <input type="radio" id="certaintimeperiods" name="experience_availability"
+                                value="certaintimeperiod"><br>
+                            <input type="radio" id="always" name="experience_availability" value="always">
+                        </td>
 
-                </tr>
+                    </tr>
 
-                <tr>
-                    <td colspan="2" class="sharebutton-submit-container">
-                        <button type="submit" value="submit" class="sharebutton-submit">Submit</button>
-                    </td>
+                    <tr>
+                        <td colspan="2" class="sharebutton-submit-container">
+                            <button type="submit" value="submit" class="sharebutton-submit">Submit</button>
+                        </td>
 
-                </tr>
-            </table>
-        </form>
-    </div>
+                    </tr>
+                </table>
+            </form>
+        </div>
 
     </main>
-
-
-
-
 
     <div class="border-mountainrange"></div>
 
@@ -154,13 +154,13 @@
 
         <div class="footer-flexboxes">
 
-            <ul id="footer-menu"></ul>  
+            <ul id="footer-menu"></ul>
 
         </div>
 
         <div class="footer-flexboxes">
             <!-- Länkarna ska här leda till Travel Tips egna sociala medier,
-            men just nu leder de bara allmänt till dessa. --> 
+            men just nu leder de bara allmänt till dessa. -->
             <h4 class="footer-textinfooter">Follow us</h4>
             <a href="https://www.instagram.com" class="position-socialmedias">
                 <img src="Images/Instagram.png" alt="Instagram logo link" class="socialmedia-links1">
@@ -177,7 +177,7 @@
 
         <div class="footer-flexboxes">
             <h4 class="Newsletter-h4">Want to be updated on all new travel tips?<br>
-            Subscribe to our newsletter.</h4>
+                Subscribe to our newsletter.</h4>
             <form action="subscribe.php" method="post" class="newsletter-form">
                 <input type="email" name="email" placeholder="Enter your mail..." required>
                 <input type="submit" value="Subscribe">
